@@ -212,7 +212,7 @@ export default function PDFFlipbook() {
   return (
     <div ref={containerRef} className="min-h-screen bg-gradient-to-br from-amber-50 via-orange-50 to-yellow-50 flex flex-col overflow-hidden">
       <div className="bg-white shadow-md py-4 px-6 flex items-center justify-between">
-        <h1 className="text-2xl font-bold text-amber-900">Flipbook Viewer</h1>
+       <img src="/icomputerlogo.png" alt="Logo" className="h-24 pl-12" />
         <div className="flex items-center gap-4">
           <span className="text-sm text-gray-600">
             Page {currentPage + 1}-{Math.min(currentPage + 2, pages.length)} of {pages.length}
